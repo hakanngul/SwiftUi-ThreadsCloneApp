@@ -253,9 +253,9 @@
 				AE0219712B0A7B7D004C8ACD /* Explore */,
 				AE02196D2B0A7B24004C8ACD /* Feed */,
 				AE02197D2B0A7BEF004C8ACD /* Profile */,
+				AE02196A2B0A78E8004C8ACD /* TabBar */,
 				AE0219752B0A7BA1004C8ACD /* ThreadCreation */,
 				AEF551952B0161830056A462 /* Root */,
-				AE02196A2B0A78E8004C8ACD /* TabBar */,
 			);
 			path = Core;
 			sourceTree = "<group>";
