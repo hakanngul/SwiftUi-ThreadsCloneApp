@@ -21,6 +21,7 @@
 		AE7FBB572B01607A00F238E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE7FBB562B01607A00F238E8 /* Assets.xcassets */; };
 		AE7FBB5A2B01607A00F238E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE7FBB592B01607A00F238E8 /* Preview Assets.xcassets */; };
 		AEAC23942B0BE938002E3980 /* ProfileThreadFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAC23932B0BE938002E3980 /* ProfileThreadFilter.swift */; };
+		AEAC23982B0C01DB002E3980 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAC23972B0C01DB002E3980 /* EditProfileView.swift */; };
 		AEF551982B0161A70056A462 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF551972B0161A70056A462 /* LoginView.swift */; };
 		AEF5519A2B016A0E0056A462 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF551992B016A0E0056A462 /* RegistrationView.swift */; };
 		AEF5519D2B016BDD0056A462 /* ThreadsTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF5519C2B016BDD0056A462 /* ThreadsTextFieldModifier.swift */; };
@@ -42,6 +43,7 @@
 		AE7FBB562B01607A00F238E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE7FBB592B01607A00F238E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AEAC23932B0BE938002E3980 /* ProfileThreadFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileThreadFilter.swift; sourceTree = "<group>"; };
+		AEAC23972B0C01DB002E3980 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		AEF551972B0161A70056A462 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		AEF551992B016A0E0056A462 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		AEF5519C2B016BDD0056A462 /* ThreadsTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTextFieldModifier.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 		AE02197D2B0A7BEF004C8ACD /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				AEAC23952B0C01BF002E3980 /* EditProfile */,
 				AEAC23922B0BE929002E3980 /* Model */,
 				AE02197E2B0A7BF5004C8ACD /* View */,
 			);
@@ -209,6 +212,22 @@
 				AEAC23932B0BE938002E3980 /* ProfileThreadFilter.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		AEAC23952B0C01BF002E3980 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				AEAC23962B0C01CE002E3980 /* View */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		AEAC23962B0C01CE002E3980 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AEAC23972B0C01DB002E3980 /* EditProfileView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		AEF5518F2B01611B0056A462 /* Models */ = {
@@ -362,6 +381,7 @@
 			files = (
 				AE0219702B0A7B33004C8ACD /* FeedView.swift in Sources */,
 				AEF551982B0161A70056A462 /* LoginView.swift in Sources */,
+				AEAC23982B0C01DB002E3980 /* EditProfileView.swift in Sources */,
 				AE7FBB552B01607700F238E8 /* ContentView.swift in Sources */,
 				AE0219822B0A7D35004C8ACD /* ThreadCell.swift in Sources */,
 				AE02197C2B0A7BE4004C8ACD /* ActivityView.swift in Sources */,
