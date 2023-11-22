@@ -25,7 +25,8 @@ struct ThreadsCloneAppApp: App {
         WindowGroup {
 //            ContentView()
 //            CreateThreadView()
-            ThreadsTabView()
+//            ThreadsTabView()
+            LoginView()
         }
     }
 }
